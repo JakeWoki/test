@@ -1,5 +1,8 @@
 import Vue from 'vue'
+import VirtualList from '@tarojs/components/virtual-list'
 import './app.scss'
+
+Vue.use(VirtualList)
 
 const App = new Vue({
   onShow (options) {
